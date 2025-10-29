@@ -77,6 +77,16 @@ npm i
 npx vite
 ```
 Frontend runs at: http://localhost:5173
+
+## Loom Video link
+https://www.loom.com/share/c74b5b893c794747b7db5ccdfedb4839
+## Frontend live url
+https://frontend-three-theta-75.vercel.app
+## Backend live url
+https://vibe-commerce-0vj6.onrender.com/api/products
+
+https://vibe-commerce-0vj6.onrender.com/api/cart
+
 ## Screenshots
 **Products page**
 <img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/ff58fcc5-c3c9-47c0-a2d8-4708fe213742" />
@@ -88,12 +98,3 @@ Frontend runs at: http://localhost:5173
 <img width="1914" height="866" alt="Screenshot 2025-10-29 134449" src="https://github.com/user-attachments/assets/e3bf77fe-e5cb-45b0-858f-0d419ae8d08a" />
 **Receipt**
  <img width="1183" height="775" alt="Screenshot 2025-10-29 134516" src="https://github.com/user-attachments/assets/d4ccf0b1-adf4-40bf-8725-6e7c05c2a6b5" />
-
-## Loom Video link
-https://www.loom.com/share/c74b5b893c794747b7db5ccdfedb4839
-## Frontend live url
-https://frontend-three-theta-75.vercel.app
-## Backend live url
-https://vibe-commerce-0vj6.onrender.com/api/products
-
-https://vibe-commerce-0vj6.onrender.com/api/cart
