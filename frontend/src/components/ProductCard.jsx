@@ -13,13 +13,12 @@ export default function ProductCard({ product, onAdd }) {
         if (qty > 0) {
             const newQty = qty - 1;
             setQty(newQty);
-            onAdd(product._id, -1); // decrement by 1
+            onAdd(product._id, -1);
         }
     };
 
     return (
         <div className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-200 flex flex-col p-5">
-            {/* Product Image */}
             <div className="h-52 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center mb-4">
                 {product.image ? (
                     <img
@@ -32,12 +31,10 @@ export default function ProductCard({ product, onAdd }) {
                 )}
             </div>
 
-            {/* Product Name */}
             <h3 className="text-xl font-semibold text-indigo-700 mb-2">
                 {product.name}
             </h3>
 
-            {/* Product Description */}
             <p
                 className="text-gray-600 text-sm leading-relaxed mb-4 overflow-hidden"
                 style={{
@@ -50,7 +47,6 @@ export default function ProductCard({ product, onAdd }) {
                 {product.description}
             </p>
 
-            {/* Price + Button/Counter */}
             <div className="mt-auto flex items-center justify-between">
                 <span className="text-lg font-bold text-gray-800">
                     ₹{product.price}
