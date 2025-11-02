@@ -78,8 +78,7 @@ npx vite
 ```
 Frontend runs at: http://localhost:5173
 
-## Loom Video link
-https://www.loom.com/share/c74b5b893c794747b7db5ccdfedb4839
+
 ## Frontend live url
 https://frontend-three-theta-75.vercel.app
 ## Backend live url
